@@ -4,10 +4,8 @@ import Girl from '../public/girl.png'
 import Boy from '../public/boy.png'
 import Rocket from '../public/rocket (1).svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { config, library } from '@fortawesome/fontawesome-svg-core';
-import { fa, fas, faUserGraduate, faSchool, faChalkboardTeacher, faBookReader, } from '@fortawesome/free-solid-svg-icons';
+import { faUserGraduate, faSchool, faChalkboardTeacher, faBookReader, } from '@fortawesome/free-solid-svg-icons';
 import Star from './star'
-import { WhatsappShareButton, WhatsappIcon, } from 'next-share';
 
 function Home() {
   return (
@@ -58,7 +56,7 @@ function Home() {
                     </div>
                     <div className="ms-3">
                       <div className="d-flex home-text-1 ">
-                        <h5>1k</h5>
+                        <h5>1k+</h5>
                       </div>
                       <span className="home-text-1-para">Total Students</span>
                     </div>
@@ -101,7 +99,7 @@ function Home() {
                 <div className="d-flex justify-content-center align-items-center text-start ms-0 ms-sm-4">
                   <div className="colorstar">
                     <Star />
-                    <p class="mb-0 small">Students Love Us!</p>
+                    <p class="mb-0 small home-text-1-para">Students Love Us!</p>
                   </div>
                 </div>
               </div>
