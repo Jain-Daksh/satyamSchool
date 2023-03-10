@@ -67,9 +67,9 @@ function Discover() {
                           height="100px"
                           className='py-2'
                         />
-                        <h4 class="title">
+                        <h5 class="title">
                           {value.Heading }
-                        </h4>
+                        </h5>
                         <p class="wrap px-2 f-mulish">{value.info} </p>
                       </div>
                     </div>
