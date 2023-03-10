@@ -2,12 +2,7 @@
     object-fit: contain;
     width: 100% !important;
 }
-.button-contact{
-    background-color: #1D3B53;
-}
-.button-contact :hover{
-    background-color: #1D3B53 !important;
-}
+
 @media screen and (min-device-width: 481px) and (max-device-width: 768px){
     .imagecontactus{
         height: 50%;
