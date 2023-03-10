@@ -57,7 +57,7 @@ function WhyToRegister() {
                       ></Image>
                     </div>
                     <div class="list__one__content">
-                      <h5>Awesome Infra-Structure</h5><p>Ready, set, network! Lakshya Academy is now open </p>
+                      <h5>Awesome Infra-Structure</h5><p>Ready, set, network! Satyam Public School is now open </p>
                     </div>
                   </div>
                 </div>

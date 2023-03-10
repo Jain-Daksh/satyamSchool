@@ -16,10 +16,6 @@
   color: #24292d;
 }
 
-.text-courses span{
-  text-align: center;
-}
-
 .courses-background{
   background-color: white;
     border-radius: 0.5rem !important;
@@ -32,17 +28,7 @@
     text-align: center;
   
 }
-.courses-1{
-  width: 15.0rem;
-}
-.card-img-top{
-  height: 100px;
-  width: 100px;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  margin-left: 2.5rem;
-  margin-right: 2.5rem;
-}
+
 .imagess{
   max-width: 100%;
   height: auto;

@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import Image1 from '../images/discover.png'
+import Image1 from '../images/courses/study.png'
 import Image2 from '../images/courses/taekwondo.png'
 import Image3 from '../images/courses/presentation.png'
 import Image4 from '../images/discover4.png'
