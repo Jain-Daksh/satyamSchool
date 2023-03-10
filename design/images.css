@@ -3,11 +3,7 @@
    height:346px;
    margin-bottom: 5%;
 }
-.move-image-1{
-  width:259.5px;
-   height:194.63px;
-   margin-bottom: 1%;
-}
+
 
 @media screen and (max-device-width: 480px){
   .move{
@@ -19,10 +15,7 @@
      width:179.53px !important;
      height: 134.63px !important;
  }
- .move-image-1{
-      width: 179.5px !important;
-      height: 134.63px !important;
-  }
+ 
   .image-care-move{
       position: relative;
       top: 0% !important;
@@ -48,10 +41,7 @@
      width:220.53px !important;
      height: 194.63px !important;
  }
- .move-image-1{
-      width: 220.5px !important;
-      height: 194.63px !important;
-  }
+ 
   .image-care-move{
       position: relative;
       top: 0% !important;
@@ -70,10 +60,7 @@
       width:220.53px !important;
       height: 194.63px !important;
   }
-  .move-image-1{
-      width: 220.5px !important;
-      height: 194.63px !important;
-  }
+  
   .move-1{ 
       position: relative;
       bottom: 0%;

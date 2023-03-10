@@ -24,9 +24,9 @@ export default function Home() {
       <WhyToRegister />
       <Courses />
       <Join />
+      <Images />
 
       {/* 
-      <Images />
       <Contact /> */}
       <Footer />
     </div>
