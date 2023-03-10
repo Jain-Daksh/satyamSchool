@@ -21,9 +21,9 @@ export default function Home() {
       <HomePage />
       <About />
       <Discover />
+      <WhyToRegister />
 
       {/* 
-      <WhyToRegister />
       <Courses />
       <Join></Join>
       <Images />
