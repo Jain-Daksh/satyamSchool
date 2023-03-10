@@ -15,18 +15,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-      <title>Satyam Public School</title>
+        <title>Satyam Public School</title>
       </Head>
       <Nav />
       <HomePage />
-      <About />
+      {/* <About />
       <Discover />
       <WhyToRegister />
       <Courses />
       <Join></Join>
       <Images />
-      <Contact />
-      <Footer></Footer>
+      <Contact /> */}
+      <Footer />
     </div>
   )
 }
