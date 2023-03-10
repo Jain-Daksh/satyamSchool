@@ -37,7 +37,7 @@ function Home() {
                   <i className="fas fa-school me-2">
                   </i>
                   < FontAwesomeIcon icon={faSchool} className={"fas fa-school me-2"} >
-                  </FontAwesomeIcon> 
+                  </FontAwesomeIcon>
                   Shastri Nagar , Ghaziabad
                 </h6>
                 <h1>The Best School You Can Get</h1>
@@ -56,7 +56,7 @@ function Home() {
                     </div>
                     <div className="ms-3">
                       <div className="d-flex home-text-1 ">
-                        <h5>1k+</h5>
+                        <h5>1k</h5>
                       </div>
                       <span className="home-text-1-para">Total Students</span>
                     </div>

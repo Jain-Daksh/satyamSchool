@@ -19,7 +19,8 @@ export default function Home() {
       </Head>
       <Nav />
       <HomePage />
-      {/* <About />
+      <About />
+      {/* 
       <Discover />
       <WhyToRegister />
       <Courses />
