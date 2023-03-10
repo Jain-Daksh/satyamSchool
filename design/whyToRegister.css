@@ -1,0 +1,25 @@
+div {
+  display: block;
+}
+
+.why__right .list__one {
+  display: flex;
+  padding-top: 5px;
+}
+
+.why__right .list__one__half {
+  height: 80px;
+  width: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  float: left;
+
+}
+.why__right .list__one__content {
+  flex: 0 0 83%;
+  padding-left: 28px;
+}

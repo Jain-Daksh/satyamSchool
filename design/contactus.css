@@ -1,0 +1,24 @@
+
+
+
+.imagecontactus{
+    
+    object-fit: contain;
+    width: 100% !important;
+    
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px){
+    .imagecontactus{
+        height: 50%;
+        width: 150px;
+    }
+     .contact{
+        margin-top: 50%;
+     }
+
+}
+  
+    
+  
+  

@@ -1,0 +1,23 @@
+h5{
+  color: #ffab4a;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+h2 {
+font-size: 48px;
+line-height: 56px;
+font-weight: 700;
+}
+
+
+a {
+color: inherit;
+text-decoration: none;
+}
+.join{
+  overflow: hidden !important;
+  position: relative;
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}

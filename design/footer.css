@@ -1,0 +1,28 @@
+
+.fill-white{
+  fill: white;
+}
+.fill-body{
+  fill: white;
+}
+.bg-success {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
+.footer{
+  padding-top: 0 !important;
+  position: relative !important;
+  display: block;
+  overflow: hidden;
+  color: white;
+  background-color: #4ABD88;
+}
+.btn-white {
+  background: #fff;}
+.body-fill{
+  fill: white;
+}
+.rotate-180 {
+  -webkit-transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;
+}
