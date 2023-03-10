@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Lakshya Academy</title>
+      <title>Satyam Public School</title>
       </Head>
       <Nav />
       <HomePage />

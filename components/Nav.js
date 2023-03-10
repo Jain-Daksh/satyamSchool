@@ -9,7 +9,7 @@ import { Whatsapp } from 'react-bootstrap-icons';
 function Navbar() {
   return (
     <div>
-        <Nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar-2">
+        <Nav className="navbar navbar-expand-lg navbar-light bg-white" id="navbar-2">
         <div className='container'>
         <Image
                 src={Image1}

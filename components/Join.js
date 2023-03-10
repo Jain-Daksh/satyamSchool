@@ -18,7 +18,7 @@ function Join() {
             <h5>Join Our New Session</h5>
           <h2 class="session__title">Enrollment is now going on</h2>
           <h2>Please contact us.</h2>
-          <button type="button"className="btn btn-warning"> <a href='#contactus'>Contact Us</a></button>
+          <button type="button" className="btn btn-warning"> <a href='#contactus'>Contact Us</a></button>
 
           </div>
           

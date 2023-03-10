@@ -39,7 +39,8 @@ function Home() {
                   <i className="fas fa-school me-2">
                   </i>
                   < FontAwesomeIcon icon={faSchool} className={"fas fa-school me-2"} >
-                  </FontAwesomeIcon> Kanpur - Lakadwas, Udaipur (Raj.)
+                  </FontAwesomeIcon> 
+                  Shastri Nagar , Ghaziabad
                 </h6>
                 <h1>The Best School You Can Get</h1>
                 <p>
