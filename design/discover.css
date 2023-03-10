@@ -5,10 +5,7 @@
   padding-bottom: 3rem !important;
   background-color: #F5F7F9;
 }
-a {
-  color: inherit;
-  text-decoration: none;
-}
+
 .courses-text h2{
   font-size: 2.34375rem;
   margin-top: 0;
@@ -46,27 +43,9 @@ a {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
 }
-.h-100px {
-  height: min-content !important;
-}
 .imagess{
   max-width: 100%;
   height: auto;
 }
 
-
-.move-1{
-  position: relative;
-  bottom: 40%;   
-}
-.move-image{
-  width:259.5px;
-   height:346px;
-   margin-bottom: 5%;
-}
-.move-image-1{
-  width:259.5px;
-   height:194.63px;
-   margin-bottom: 1%;
-}
 

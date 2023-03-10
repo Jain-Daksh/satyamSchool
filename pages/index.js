@@ -20,8 +20,9 @@ export default function Home() {
       <Nav />
       <HomePage />
       <About />
-      {/* 
       <Discover />
+
+      {/* 
       <WhyToRegister />
       <Courses />
       <Join></Join>
