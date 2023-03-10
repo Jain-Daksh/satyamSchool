@@ -8,6 +8,40 @@ import Image1 from '../public/abc (1).svg'
 import Image2 from '../public/lego (1).svg'
 import Image3 from '../public/song (1).svg'
 import Image4 from '../public/sport (1).svg'
+const courses = [
+  {
+    "id": 1,
+    "Heading": "PreSchool",
+    "info": "An early childhood program in which children combine learning with play ",
+    "image": Image1,
+    "alt" : "image"
+  },
+  {
+    "id": 2,
+    "Heading": "Nursery to VIII class  ",
+    "info": "The school is upto Secondary School and affiliated with CBSE since 2005    ",
+    "image": Image2,
+    "alt" : "image"
+
+  },
+  {
+    "id": 3,
+    "Heading": "Music    ",
+    // "info": "Music is the art of producing a pleasurable sound that calm our ears.",
+    "info": "Music leads to better brain development, helps to socialise",
+    "image": Image3,
+    "alt" : "image"
+
+  },
+  {
+    "id": 4,
+    "Heading": "Sports",
+    "info": "Help to increase confidence, mental alertness, and self-esteem.    ",
+    "image": Image4,
+    "alt" : "image"
+
+  },
+]
 function Courses() {
   return (
     <div>
@@ -172,92 +206,30 @@ function Courses() {
               <p>Perceived end knowledge certainly day sweetness why cordially</p>
             </div>
           </div>
-          <div className='row row-cols-1 row-cols-sm-2 row-cols-md-6   background-courses'>
-            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5">
-              <div >
-                <div class="box-feature">
-
-                </div>
-                <div class="box-content  courses-background">
-                  <Image
-                    src={Image1}
-                    alt="Music logo"
-                    width="100px"
-                    height="100px"
-                  />
-                  <div className="text-body">
-                    <h5 className="card-title">PreSchool</h5>
-                    <br></br>
-                    <p className="card-text">An early childhood program in which children combine learning with play </p>
-                    <br></br>
+          <div className='row'>
+              {
+                courses.map((value) => (
+                  <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5">
+                    <div >
+                      <div class="box-content courses-background">
+                        <Image
+                          src={value.image}
+                          alt={value.alt}
+                          width="100px"
+                          height="100px"
+                          className='py-2'
+                        />
+                        <h5 class="card-title mb-3">
+                          {value.Heading }
+                        </h5>
+                        <p class="wrap px-2 f-mulish">{value.info} </p>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5">
-              <div >
-                <div class="box-feature">
-                </div>
-                <div class="box-content courses-background">
-                  <Image
-                    src={Image2}
-                    alt="Music logo"
-                    width="100px"
-                    height="100px"
-                  />
-                  <div className="text-body">
-                    <h5 className="card-title">Nursery to X class</h5>
-                    <br></br>
-                    <p className="card-text">The school is upto Secondary School and affiliated with CBSE since 2005</p>
-                    <br></br>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5">
-              <div >
-                <div class="box-feature">
+                ))
+              }
 
-                </div>
-                <div class="box-content courses-background">
-                  <Image
-                    src={Image3}
-                    alt="Music logo"
-                    width="100px"
-                    height="100px"
-                  />
-                  <div className="text-body">
-                    <h5 className="card-title">Music</h5>
-                    <br></br>
-                    <p className="card-text">Music is the art of producing a pleasurable sound that soothes our ears.  </p>
-                    <br></br>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="col-xl-3 col-lg-3 col-md-5 col-sm-5">
-              <div >
-                <div class="box-feature">
-
-                </div>
-                <div class="box-content courses-background">
-                  <Image
-                    src={Image4}
-                    alt="Music logo"
-                    width="100px"
-                    height="100px"
-                  />
-                  <div className="text-body">
-                    <h5 className="card-title">Sports </h5>
-                    <br></br>
-                    <p className="card-text">Help to increase confidence, mental alertness, and self-esteem.</p>
-                    <br></br>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
         </div>
       </section>
     </div>

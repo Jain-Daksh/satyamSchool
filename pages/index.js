@@ -22,9 +22,9 @@ export default function Home() {
       <About />
       <Discover />
       <WhyToRegister />
+      <Courses />
 
       {/* 
-      <Courses />
       <Join></Join>
       <Images />
       <Contact /> */}
