@@ -41,10 +41,8 @@ function Home() {
                   Shastri Nagar , Ghaziabad
                 </h6>
                 <h1>The Best School You Can Get</h1>
-                <p>
-                  The best cost-efficient choice for parents looking for high-quality education, Dedicated Timetabled
-                  Lessons
-                  Offered with qualified Staff.
+                <p className='px-3'>
+                  Our Aim is to provide a brilliant shape to little beautiful minds, so that they can create their own space in this challenging world
                 </p>
               </div>
               <div className="row g-4 justify-content-center">
