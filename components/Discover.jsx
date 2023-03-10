@@ -43,7 +43,7 @@ function Discover() {
   return (
     <div>
 
-      <section class="tf-section tf-discovery-2 courses">
+      <section class="courses">
         <div class="container">
           <div class="position-relative py-5">
             <div class="col-12">

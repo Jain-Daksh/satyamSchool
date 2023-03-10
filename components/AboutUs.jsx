@@ -5,7 +5,7 @@ import Image1 from '../images/about-us-3.png'
 function About() {
   return (
     <div>
-      <section id='about'>
+      <section id='about' className='courses'>
         <div className='container'>
           <div className='row'>
             <div class="col-lg-6">

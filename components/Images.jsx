@@ -56,7 +56,7 @@ const images = [
 function Images() {
   return (
     <div>
-      <section id='images' className="images-section">
+      <section id='images' className="images-section courses">
         <div>
           <div className="container">
             <h2>Our Lovely Movements</h2>
