@@ -25,9 +25,7 @@ export default function Home() {
       <Courses />
       <Join />
       <Images />
-
-      {/* 
-      <Contact /> */}
+      <Contact /> 
       <Footer />
     </div>
   )
