@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../images/logo.svg'
+import Image1 from '../images/logo_new.jpeg'
 import { Nav, Button, Container } from 'react-bootstrap';
 import { Whatsapp } from 'react-bootstrap-icons';
 
@@ -11,7 +11,7 @@ function Navbar() {
         <div className='container'>
           <Image
             src={Image1}
-            alt="Abc logo"
+            alt="Satyam School logo"
             className="logo"
             width="150"
             height="150"
