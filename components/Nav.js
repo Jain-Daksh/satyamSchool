@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import Image1 from '../images/logo_new.png'
+import Image1 from '../images/newlogo.png'
 import { Nav, Button, Container } from 'react-bootstrap';
 import { Whatsapp } from 'react-bootstrap-icons';
 
